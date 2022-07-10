@@ -1,33 +1,30 @@
+
 body {
-    background: #4b6cb7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(63, 78, 79);
+    color: rgb(220, 215, 201);
 }
-
-h1, p, a {
-    font-family: 'Carrois Gothic SC', sans-serif;
-    display: block;
+header,
+main {
     text-align: center;
-    line-height:.8;
-    color: white;
 }
-.contenido {
-    max-width: 1200px;
-    margin: 5rem auto 0 auto;
-    color: white;
-    font-size: 3rem;
-    font-family: 'Carrois Gothic SC', sans-serif;
+label {
+    font-size: 30px;
 }
-h1 {
-    font-size: 4rem;
+input {
+    padding: 10px;
+    margin: 10px;
 }
-a {
-    font-size: 1.4rem;
+button {
+    background-color: rgb(162, 123, 92);
+    height: 50px;
+    cursor: pointer;
 }
-p {
-    font-size: 2.2rem;
+.formulario-contenedor {
+    margin: 10px 70px;
 }
-
-.hashtag {
-    font-family: Arial, Helvetica, sans-serif;
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
